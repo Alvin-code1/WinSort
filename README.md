@@ -8,25 +8,25 @@ Su interfaz elegante y moderna proporciona una experiencia amigable para el usua
 
 ---
 
-## Características
+## 🛑 Características
 
-    - Interfaz gráfica moderna y personalizable.
-    - Botones con íconos y animaciones fluidas.
-    - Funcionalidades para:
+    - ✅ Interfaz gráfica moderna y personalizable.
+    - ✅ Botones con íconos y animaciones fluidas.
+    - ✅ Funcionalidades para:
         - Enumerar archivos de manera recursiva (incluyendo carpetas interiores)
         - Ordenar ficheros .srt y agruparlos en una carpeta interior.
         - Renombrar archivos que se encuentren dentro de directorios de Series o Animes
         para organizarlos más facil ([Nombre de la serie] "Episodio" [numero del episodio].[extension])
         - Deshacer enumeraciones
         - Buscar el path de un fichero dentro de un directorio especifico o en todo el volumen (default)
-    - Modo detallado con registros (verbose)
-    - Barra lateral animada
-    - Barra superior personalizada
-    - Fondos decorativos
+    - ✅ Modo detallado con registros (verbose)
+    - ✅ Barra lateral animada
+    - ✅ Barra superior personalizada
+    - ✅ Fondos decorativos
 
 ---
 
-## Tecnologias Usadas
+## 💻 Tecnologias Usadas
 
 - **Python 3.13**
 - **PySide6**
@@ -36,7 +36,7 @@ Su interfaz elegante y moderna proporciona una experiencia amigable para el usua
 
 ---
 
-## Como Ejecutar
+## 🚀 Como Ejecutar
 
 1. Instalar las dependencias
     
@@ -52,7 +52,7 @@ Su interfaz elegante y moderna proporciona una experiencia amigable para el usua
 
 ---
 
-Compilar Ejecutable
+## 🧱 Compilar Ejecutable
 
 Usa PyInstaller:
 
@@ -62,7 +62,7 @@ Usa PyInstaller:
 
 ---
 
-## Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
     winSort /
     |--- WinSort.py
