@@ -41,7 +41,7 @@ Su interfaz elegante y moderna proporciona una experiencia amigable para el usua
 1. Instalar las dependencias
     
     ```bash
-    pip install -r requirements.txt
+    pip install -r requeriments.txt
     ```
 
 2. Ejeutar la aplicacion
@@ -57,7 +57,7 @@ Su interfaz elegante y moderna proporciona una experiencia amigable para el usua
 Usa PyInstaller:
 
     ```bash
-    pyinstaller --windowed --icon=modiles/_internal/icono.ico --add-data='modiles/_internal/styles.qss;.' --add-data='modiles/_internal/background.png;.' --add-data='modiles/_internal/icono.png;.' --add-data='modiles/_internal/play.svg;.' --add-data='modiles/_internal/return.svg;.' --add-data='modiles/_internal/search.svg;.' --add-data='modiles/_internal/sort.svg;.' --add-data='modiles/_internal/unsort.svg;.' --add-data='icono.ico;.' --add-data='modiles/_internal/fonts;fonts' WinSort.py
+    pyinstaller --windowed --icon=modules/_internal/icono.ico --add-data='modules/_internal/styles.qss;.' --add-data='modules/_internal/background.png;.' --add-data='modules/_internal/icono.png;.' --add-data='modules/_internal/play.svg;.' --add-data='modules/_internal/return.svg;.' --add-data='modules/_internal/search.svg;.' --add-data='modules/_internal/sort.svg;.' --add-data='modules/_internal/unsort.svg;.' --add-data='icono.ico;.' --add-data='modiles/_internal/fonts;fonts' WinSort.py
     ```
 
 ---
