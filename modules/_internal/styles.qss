@@ -1,0 +1,142 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+Qwidget {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+QFrame#TitleBar {
+    background-color: #212121;
+    border: none;
+}
+QPushButton {
+    background-color: #292738;
+    font-family: 'Mulish';
+    color: #f2f2ff;
+    border: 1px solid #7a42f4;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #3a324d;
+}
+QPushButton:pressed {
+    background-color: #1b1b1b;
+}
+QPushButton[active='true'] {
+    background-color: #7a42f4;
+    color: white;
+}
+QPushButton#OptionButton {
+    background-color: transparent;
+    font-family: 'Mulish';
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: bold;
+}
+QPushButton#OptionButton:hover {
+    background-color: #222222;
+    color: #7a42fa;
+    opacity: 0.6;
+}
+QPushButton#OptionButton:checked {
+    background-color: #181818;
+    opacity: 0.85;
+    color: #7a42f4;
+    border: 1px solid #7a42f4;
+}
+QPushButton#Focused {
+    background-color: #222222;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+QPushButton#Normal {
+    background-color: #202020;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+QPushButton#Else {
+    background-color: #181818;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+QLineEdit, QEditText {
+    background-color: #2a2a2a;
+    border: 1px solid #7a42f4;
+    border-radius: 8px;
+    padding:  8px;
+    color: #f0f0f0
+}
+QLabel#StatusLabel {
+    font-size: 16px;
+    font-weight: bold;
+    color: #b984ff;
+}
+QLabel#MainTitle {
+    color: purple;
+    font-family: 'Syne';
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+QLabel#BrandName {
+    color: white;
+    font-family: 'Syne';
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    margin-top: 15px;
+    padding-right: none;
+}
+QLabel#ActionLabel {
+    color: #8a2be2;
+    font-family: 'Titillium Web';
+    font-size: 32px;
+    font-weight: bold;
+    border: none;
+    margin-left: 20px;
+}
+QLabel#Greeting {
+    color: white; 
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight:bold;
+}
+QProgressBar {
+    background-color: #2a2a2a;
+    border: 1px solid #7a42f4;
+    border-radius: 5px;
+    text-align: center;
+}
+QProgressBar::chunk {
+    background-color: #7a42f4;
+    width: 10px;
+}
+QTextEdit#OutputBox {
+    font-family: Consolas, monospace;
+    background-color: #1b1b1b;
+    color: #00ffcc;
+    border-radius: 8px;
+    padding: 10px;
+}
+QFrame#Sidebar {
+    background-color: #1f1f1f;
+    width: 80px;
+    border-right: 1px solid #2a2a2a;
+    border: none;
+}
